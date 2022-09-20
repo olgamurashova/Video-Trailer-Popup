@@ -10,5 +10,26 @@ body {
 }
 
 .main-container {
-    
+    max-width: 700px;
+    padding: 10px;
+}
+
+.main-container img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.main-container h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.main-container p {
+    color: white;
+    margin: 15px 0;
+}
+
+.trailer-container {
+    display: none;
 }
