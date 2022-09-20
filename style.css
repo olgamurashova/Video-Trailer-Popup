@@ -65,8 +65,21 @@ body {
     outline: none;
 }
 
+.active.trailer-container {
+    visibility: hidden;
+}
+
 @media (max-width:991px) {
     .trailer-container video {
         max-width: 90%;
     }
+}
+
+.close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+
 }
